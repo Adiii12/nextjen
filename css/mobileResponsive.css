@@ -1,0 +1,321 @@
+@media only screen and (max-width: 1300px) {
+  .top .hero .left h1,
+  .ourMissionTop .row .left .inner h1,
+  .lastProject h1,
+  .meetOurTeam h1,
+  .ourBlogs .row .left h1,
+  .contactUs .row .left h1  {
+    font-size: 47px;
+    line-height: 59px;
+  }
+  .top .hero .left p,
+  .ourMissionTop .row .left .inner p,
+  .lastProject .para,
+  .meetOurTeam .para,
+  .ourBlogs .row .left p,
+  .contactUs .row .left .para {
+    font-size: 14px;
+  }
+
+  .top .hero {
+    height: 100vh;
+  }
+  .top .hero .left form select {
+    height: 57px;
+    width: 150px;
+  }
+  .top .hero .left form select:nth-child(1) {
+    margin-left: 20px;
+  }
+  .top .hero .left form {
+    height: 71px;
+  }
+  .top .hero .left form button {
+    height: 57px;
+    font-size: 17px;
+    width: 161px;
+  }
+  .meetOurTeam .rowTeam .card {
+    flex-direction: column;
+  }
+
+.meetOurTeam .rowTeam .card .left{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.meetOurTeam .rowTeam .card .right h3,
+.meetOurTeam .rowTeam .card .right p {
+    text-align: center;
+}
+.meetOurTeam .rowTeam .card .left .social{
+    justify-content: center;
+}
+}
+
+@media only screen and (max-width: 1100px) {
+  .top .hero .left form {
+    width: 130%;
+  }
+  .top .hero .left h1,
+  .ourMissionTop .row .left .inner h1,
+  .lastProject h1,
+  .meetOurTeam h1,
+  .ourBlogs .row .left h1,
+  .contactUs .row .left h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  .ourMissionTop .row .left .inner h4 {
+    position: static;
+    margin-top: 20px;
+  }
+  .slick-list div .new img {
+    height: auto;
+  }
+  .ourMissionTop .row .right .pattern {
+    width: 200px;
+    left: -25px;
+    bottom: -20px;
+  }
+  .ourBlogs .row .right .pattern {
+    position: absolute;
+    left: -20px;
+    width: 150px;
+    bottom: -25px;
+    z-index: -1;
+  }
+  .meetOurTeam .rowTeam .card{
+    padding: 15px;
+  }
+  .footer .row {
+    flex-wrap: wrap;
+  }
+  .footer .row .col1{
+    width: 45%;
+  }
+.footer .row .col2,
+.footer .row .col3{
+    width: 25%;
+    margin-bottom: 50px;
+}
+.footer .row .col4{
+width: 32%;
+
+}
+}
+@media only screen and (max-width: 1050px) {
+    .top .header .row .left ul{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        top: -100%;
+        z-index: 999;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.9);
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.4s;
+        cursor: url(‘./../../img/cross.png), auto;
+    }
+    .top .header .row .left .mobileMenuIcon{
+        display: block;
+    }
+    .top .header .row .left ul li{
+       margin: 20px 0px;
+    }
+ 
+  .ourMissionTop .row {
+    flex-wrap: wrap;
+  }
+  .ourMissionTop .row .left {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .ourMissionTop .row .right {
+    width: 100%;
+  }
+  /* the slides */
+  .slick-list div .slick-slide {
+    margin: 0px 0px 0px 5px !important;
+  }
+
+  /* the parent */
+  .slick-list div .slick-list {
+    margin: 0px 0px 0px -5px !important;
+  }
+  .ourBlogs .row{
+    flex-wrap: wrap;
+  }
+  .ourBlogs .row .left{
+    width: 100%;
+    margin-bottom: 40px;
+    padding-right: 0px;
+  }
+  .ourBlogs .row .right{
+    width: 100%;
+  }
+  .ourBlogs .row .left button{
+    position: static;
+    margin-top: 10px;
+  }
+  .contactUs .row{
+    flex-wrap: wrap;
+  }
+  .contactUs .row .left{
+    width: 100%;
+margin-bottom: 40px;
+}  .contactUs .row .right{
+    width: 100%;
+}
+.contactUs .row .right form{
+    max-width: 500px;
+    width: 100%;
+}
+.contactUs .row .right{
+    justify-content: center;
+}
+.footer .row{
+    flex-wrap: wrap;
+}
+
+}
+@media only screen and (max-width: 992px) {
+  .top .hero .left form {
+    width: 160%;
+  }
+  .btn-wrap{
+    right: 49%;
+  }
+  .meetOurTeam .rowTeam{
+    flex-wrap: wrap;
+  }
+  .meetOurTeam .rowTeam .card{
+    width: 48%;
+    margin-bottom: 25px;
+  }
+  .top .hero .right {
+    display: none;
+  }
+}
+@media only screen and (max-width: 869px) {
+  .top .hero .left h1,
+  .ourMissionTop .row .left .inner h1,
+  .lastProject h1 ,
+  .meetOurTeam h1,
+  .ourBlogs .row .left h1,
+  .contactUs .row .left h1{
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .btn-wrap{
+   position: static;
+   margin-top: 20px;
+  }
+  .slick-list{
+    margin-top: 20px;
+  }
+
+  .ourMissionTop .row .right .pattern,
+  .ourMissionTop .row .right .pattern,
+  .lastProject .videos .pattern,
+  .ourBlogs .row .right .pattern  {
+   display: none;
+  }
+  .footer .row .col2,
+  .footer .row .col2{
+    width: 48%;
+    margin-bottom: 50px;
+}
+.footer .row .col3{
+    width: 48%;
+}
+.footer .row .col4{
+width: 48%;
+
+}
+}
+@media only screen and (max-width: 769px) {
+  .top .hero .left {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .top .hero .left form {
+    width: 100%;
+  }
+
+
+}
+@media only screen and (max-width: 669px) {
+  .top .hero .left form button {
+    width: 130px;
+    padding: 7px;
+    font-size: 17px;
+  }
+  .top .hero .left form select {
+    width: 100px;
+  }
+  .lastProject .btnsList button,
+  .ourBlogs .row .left button{
+    max-width: 200px;
+    width: 48%;
+    height: 53px;
+    font-size: 14px;
+  }
+  .lastProject .btnsList{
+    margin-bottom: 20px;
+  }
+  .lastProject .videos .inner1 .play{
+    top: 40%;
+    width: 50px;
+  }
+  .meetOurTeam .rowTeam .card{
+    width: 100%;
+  }
+  .footer .row .col1,
+  .footer .row .col2,
+  .footer .row .col4,
+  .footer .row .col3{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.footer .row .col2{
+    margin-top: 50px;
+}
+.top .header .row .left .logo img{
+    width: 100px;
+}
+.top .header .row .right button {
+    width: 140px;
+    height: 41px;
+    font-size: 14px;
+}
+.lastProject,
+.ourBlogs,
+.meetOurTeam,
+.ourMissionTop,
+.worldMap,
+.contactUs {
+  padding: 50px 0px;
+}
+}
+@media only screen and (max-width: 469px) {
+  .top .hero .left form {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px;
+    border-radius: 12px;
+  }
+  .top .hero .left form button {
+    margin-top: 15px;
+  }
+  .top .hero .left form select:nth-child(2) {
+    border-right: none !important;
+  }
+}
